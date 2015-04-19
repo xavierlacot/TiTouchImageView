@@ -10,7 +10,7 @@ Download the latest distribution ZIP-file and consult the [Titanium Documentatio
 
 `$ gittio install org.iotashan.TiTouchImageView`
 
-## Referencing the module in your Ti mobile application 
+## Referencing the module in your Ti mobile application
 
 Simply add the following lines to your `tiapp.xml` file:
 
@@ -54,6 +54,7 @@ Resets the zoom to the default value for the view.
 ### scrollTo(x,y)
 
 Scrolls the view to the point specified.
+In this fork, pass values from 1 to 100.
 
 ### getCurrentZoom()
 
